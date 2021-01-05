@@ -1,0 +1,99 @@
+body {
+  background-image: url("../../photos/bgblood.png");
+}
+page-container {
+  position: relative;
+  min-height: 100%;
+}
+h1 {
+  font-size: 65px;
+  padding: 15px;
+  text-align: center;
+  color: black;
+  font-family: "Fantasy", Courier, monospace;
+}
+h2 {
+  padding-top: 15px;
+  color: black;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Fantasy", Courier, monospace
+}
+nav {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+  font-size: 30px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+p.one {
+  font-family: "Fantasy", Courier, monospace;
+  font-size: 25px;
+  padding: 30px;
+  color: white;
+  padding: 25px
+ }
+video {
+width: 85%;
+height: 85%;
+padding:5px;
+margin-left: auto;
+ margin-right: auto;
+ display: block
+}
+/* This was changed to % instead of fixed px values, so it would adapt based on the screen size.  */
+img.toras {
+  float: left;
+  height: 307px;
+  width: 409px;
+  margin: 25px;
+  border: 5px solid white
+}
+img.human {
+  float: left;
+  height: 307px;
+  width: 409px;
+  margin: 25px;
+  border: 5px solid white
+}
+/* I am not exactly sure if the height and width of img. should be changed to % instead of fixed values. It will be left at fixed values. */
+.paragraph {
+  font-family: "Fantasy", Courier, monospace;
+  font-size: 20px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  color: white;
+  margin: 30px;
+}
+.namuh2 {
+  padding-top: 85px;
+  text-align: center;
+}
+p {
+ color: white;
+ font-family: "Fantasy", Courier, monospace;
+ padding: 5px;
+ padding-left: 25px
+}
+.row {
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+/* Had a lot of issues with placing audio files. This worked, so it was left. */
+footer {
+  height: 50px;
+  margin-top: 175px;
+background-color: black;
+text-align: center;
+}
+/*  I've tried everything, yet most of the time, it was either a sticky footer (sticking and moving at the bottom of the page as you scroll) or just staying the middle of the page. This is the only way I managed to keep it at the bottom, even though I know it is not perfect, as the second page is larger (longer) than the first one, so the does not look exactly the same on both pages. */
